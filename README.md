@@ -18,8 +18,11 @@ __MATLAB__
 1. Inside mex_prox_ind_l1_norm.c uncomment the line corresponding to the implementation you would like to run (e.g., column sort)
 
 ...
+
 prox_l1_norm_column_sort(X,V,*lambda);
+
 //prox_l1_norm_active_set(X,V,*lambda);
+
 ...
 
 2. Inside MATLAB's command window type:
