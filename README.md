@@ -2,26 +2,19 @@
 
 This README describes the steps to compile and run the code, as well as to use wrappers for MATLAB and Python.
 
-========================================
-* Quick summary
-========================================
+## Quick summary
 This project implements algorithms for the computation of the proximal operator of induced l1 matrix norms (a.k.a., mixed l1,oo norm).
 
-========================================
-* Version
-========================================
+## Version
 1.0
 
-========================================
-* How to use this software
-========================================
+## How to use this software
 
-C programs -- See main() function in prox_ind_l1_norm.c
-************************************************************
+__C programs -- See main() function in prox_ind_l1_norm.c__
 
 
-MATLAB
-************************************************************
+__MATLAB__
+
 1. Inside mex_prox_ind_l1_norm.c uncomment the line corresponding to the implementation you would like to run (e.g., column sort)
 
 ...
@@ -40,8 +33,8 @@ V = randn(5);
 X = prox_l1_column_sort(V,LAMBDA);
 
 
-Python
-************************************************************
+__Python__
+
 1. Compile source C code into a dynamic library:
 
 gcc -fPIC -shared -o libprox.so prox_ind_l1_norm.c
