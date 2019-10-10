@@ -3,7 +3,9 @@
 This README describes the steps to compile and run the code, as well as to use wrappers for MATLAB and Python.
 
 ## Quick summary
-This project implements algorithms for the computation of the proximal operator of induced l1 matrix norms (a.k.a., mixed l1,oo norm).
+This project implements algorithms for the computation of the proximal operator of induced l1 matrix norms (a.k.a., mixed l1,oo norm). A preprint describing the method can be found at:
+
+[B. Béjar, Ivan Dokmanić, and René Vidal. The fastest L1oo in the west.](https://arxiv.org/abs/1910.03749)
 
 ## Version
 1.0
